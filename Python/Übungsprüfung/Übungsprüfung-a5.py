@@ -1,16 +1,16 @@
-import turtle as t
+from turtle import *
 
-t.speed(-1)
-t.left(90)
+speed(-1)
+left(90)
 
 def dreieck():
   for i in range(3):
-    t.forward(100)
-    t.left(120)
+    forward(100)
+    left(120)
   
 for i in range(3):
   dreieck()
-  t.forward(100)
+  forward(100)
 
-t.hideturtle()
-t.done()
+hideturtle()
+done()

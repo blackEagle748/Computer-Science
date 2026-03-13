@@ -1,6 +1,6 @@
 import turtle as t  
 t.hideturtle()
-t.color("red","red")      # Stift‑ und Füllfarbe gleich -> kein sichtbarer Rand
+t.color("red","red")
 t.begin_fill()
 for _ in range(2):
   t.forward(150); t.left(90)

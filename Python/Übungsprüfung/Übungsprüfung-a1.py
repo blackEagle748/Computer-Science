@@ -1,7 +1,6 @@
 import turtle
 
 def draw_colored_hexagon(side_length=100):
-  """Draw a regular hexagon, each side in a different color."""
   colors = ['red', 'green', 'blue', 'yellow', 'purple', 'orange']
   t = turtle.Turtle()
   t.speed('normal')
